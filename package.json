@@ -1,0 +1,26 @@
+{
+  "name": "u-develop-it",
+  "version": "1.0.0",
+  "description": "Voting Application for Tech Conferences",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaberle/u-develop-it.git"
+  },
+  "keywords": [],
+  "author": "Paul Haberle <paulshaberle@gmail.com> (https://github.com/phaberle?tab=repositories)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phaberle/u-develop-it/issues"
+  },
+  "homepage": "https://github.com/phaberle/u-develop-it#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "mysql2": "^2.3.3"
+  }
+}
