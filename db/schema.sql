@@ -1,6 +1,7 @@
 DROP TABLE IF EXISTS candidates;
 DROP TABLE IF EXISTS parties;
 
+Use election;
 CREATE TABLE parties (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
